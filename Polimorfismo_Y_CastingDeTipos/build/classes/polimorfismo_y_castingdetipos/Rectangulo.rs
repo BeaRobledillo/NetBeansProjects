@@ -1,0 +1,1 @@
+jerarquiaobjetogeometrico.Rectangulo

@@ -1,0 +1,9 @@
+String querySelect = "SELECT * FROM cliente";
+
+/*OJO en las querys la persona de contacto puede tener un valor NULL si no existe*/
+String queryInsert = "INSERT INTO cliente (idCliente, nombre, direccion, telefono, persona) VALUES (NULL, '_____', '_____', '_____', '____')";
+
+
+String queryUpdate = "UPDATE cliente SET nombre = '______', direccion = '____', telefono = '_________', persona = '________' WHERE cliente.idCliente = idCliente";
+
+String queryDelete = "DELETE FROM cliente WHERE cliente.idCliente = idCliente";
